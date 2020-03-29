@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center no-right-margin">
+        <header>
+          <img class="box" src="./images/logo.svg" alt="Base-Apparel-logo" />
+          <img class="mobile-img" src="./images/hero-mobile.jpg" alt="model" />
+        </header>
+        <main class="margin-x">
+          <div class="box">
+            <h1>
+              <span class="thin-font red">We're</span>
+              <span class="neutral">coming</span>
+              <span class="neutral">soon</span>
+            </h1>
+          </div>
+          <div class="box">
+            <p class="red">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+          <div class="email-input">
+            <form action="submit" class="box center" id="email-form">
+              <input
+                type="text"
+                name="email"
+                id="name"
+                placeholder="Email Address"
+              />
+              <img hidden src="./images/icon-error.svg" alt="icon-error" />
+              <button>
+                <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+              </button>
+            </form>
+          </div>
+        </main>
+
+        <footer>
+          <p class="attribution box full-width">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">Maximiliano Blanco</a>.
+          </p>
+        </footer>
+      </div>
+      <div class="side-panel">
+        <img class="desktop-img" src="./images/hero-desktop.jpg" alt="model" />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
